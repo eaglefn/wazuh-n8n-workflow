@@ -1,0 +1,10 @@
+# add this to /var/ossec/etc/ossec.conf
+# replace with your hook_url
+
+<!-- Integrations -->
+  <integration>
+     <name>custom-n8n</name>
+     <hook_url>https://n8n.yourdomain.de/webhook/d9f7d5e6-640e-4743-bf36-xxxxxxxxxxxx </hook_url>
+     <level>10</level>
+     <alert_format>json</alert_format>
+  </integration>
