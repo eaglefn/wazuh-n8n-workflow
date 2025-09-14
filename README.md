@@ -76,4 +76,4 @@ The included files allow you to forward alerts from Wazuh to n8n and enrich them
 ## License
 
 This project is free to use.  
-A specific license can be added if required.
+
